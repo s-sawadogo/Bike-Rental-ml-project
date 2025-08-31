@@ -102,8 +102,8 @@ docker-compose logs -f
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
-cd ml-project-blueprint
+git clone https://github.com/s-sawadogo/Bike-Rental-ml-project.git
+cd Bike-Rental-ml-project
 
 # Create and activate conda environment
 conda env create -f environment.yml
