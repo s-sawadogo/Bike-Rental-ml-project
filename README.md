@@ -131,7 +131,7 @@ python app.py
 ## 📁 Project Architecture & Data Flow
 
 ```
-ml-project-blueprint/
+Bike-Rental-ml-project/
 ├── 📁 app-ml/                           # Demand Forecasting Engine
 │   ├── 📁 entrypoint/                  # Production ML Services
 │   │   ├── prod_train.py               # Demand model training pipeline
