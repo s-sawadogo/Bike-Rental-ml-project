@@ -76,8 +76,8 @@ The system implements a comprehensive machine learning pipeline with five distin
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
-cd ml-project-blueprint
+git clone https://github.com/s-sawadogo/Bike-Rental-ml-project.git
+cd Bike-Rental-ml-project
 
 # Deploy all services with production configuration
 docker-compose up --build
