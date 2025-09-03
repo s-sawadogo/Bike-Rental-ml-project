@@ -110,7 +110,7 @@ conda env create -f environment.yml
 conda activate ml-blueprint
 
 # Train the model first (if not already trained)
-python app-ml/entrypoint/rain.py
+python app-ml/entrypoint/train.py
 
 # Run inference in a loop 
 python app-ml/entrypoint/inference.py
@@ -125,7 +125,7 @@ python app.py
 
 **Access the application:**
 - 🌐 **UI Dashboard**: http://localhost:8050
-- 🔌 **Inference API**: http://localhost:5001
+- 🔌 **Inference API**:http://localhost:5001
 
 
 ## 📁 Project Architecture & Data Flow
@@ -136,7 +136,7 @@ Bike-Rental-ml-project/
 │   ├── 📁 entrypoint/                  # Production ML Services
 │   │   ├── prod_train.py               # Demand model training pipeline
 │   │   ├── prod_inference.py           # Batch demand prediction service
-│   │   └── inference_api.py            # Real-time demand prediction API
+│   │   └── inference_api.py             # Real-time demand prediction API
 │   ├── 📁 notebooks/                   # Data Science & Analysis
 │   │   ├── EDA.ipynb                   # Demand pattern analysis
 │   │   └── Modeling.ipynb              # Demand forecasting model development
