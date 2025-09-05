@@ -107,7 +107,7 @@ cd Bike-Rental-ml-project
 
 # Create and activate conda environment
 conda env create -f environment.yml
-conda activate ml-blueprint
+conda activate ml-blueprint # Name of the environment in the environment.yml file
 
 # Train the model first (if not already trained)
 python app-ml/entrypoint/train.py
